@@ -1,0 +1,63 @@
+
+form{
+width: 80%;
+justify-content: center;
+display: flex;
+margin: auto;
+gap: 5px;
+margin-top: 70px;
+}
+input{
+    width: 110px;
+}
+input[type="date"]{
+width: 80px;
+}
+table
+{
+width: 80%;
+margin:30px auto;
+font-size: 15px;
+border-collapse: collapse;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+border-bottom: 4px solid #019779;
+}
+.img
+{
+    border: 1px rgb(0, 0, 0) solid;
+}
+tbody tr:first-child
+{
+background-color:#019779;
+color:white ;
+
+}
+
+table tr:nth-child(even)
+{
+background-color:#0728280f;
+color:rgb(0, 0, 0) ;
+
+}
+tr:first-child th 
+{
+padding: 15px 2px;
+}
+td 
+{
+
+text-align: center;
+border-bottom: 1px solid #25252548;
+}
+.delete
+{
+background-color: #db1337;
+color: white;
+padding: 8px 20px;
+cursor: pointer;
+border-radius: 6px;
+border: none;
+}
+.delete:hover{
+    background-color: #420b15;
+}
